@@ -1,0 +1,23 @@
+1) What is software
+
+-> Software is a set of instructions, data or programs used to operate computers and execute specific tasks. 
+
+2) Types of application 
+
+-> There are three type of application
+    
+    1) Native app
+	2) web app
+	2) Hybrid app
+
+3) What is mobile application
+
+- > A mobile app is a software application developed specifically for use on small, wireless computing devices, such as smartphones and tablets.
+
+4) Difference between mobile application and web application
+
+-> Mobile applications are specifically created to be operated from mobile. In contrast, web applications are created with the purpose of the content and services being browsed by the user from any device via browsers.
+
+5) Who developed Android?
+
+-> Andy Rubin, Rich Miner, and Nick Sears
