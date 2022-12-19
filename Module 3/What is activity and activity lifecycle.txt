@@ -1,0 +1,29 @@
+What is activity and activity lifecycle
+-------------------
+
+An Android activity goes through six major lifecycle stages or callbacks. These are: onCreate() , onStart() , onResume() , onPause() , onStop() , and onDestroy() . The system invokes each of these callbacks as an activity enters a new state
+
+- > onCreate()
+The onCreate() callback is compulsory in all Android applications. It is the first method called when we launch an activity from the home screen or intent.
+
+-> onStart()
+When an application is started, the system will invoke an onStart() method. This callback is invoked to make the activity visible to the user.
+
+-> onResume()
+Once onStart() is called, onResume() is immediately invoked. Every component associated with this activity is brought to the foreground state. The activity is now considered interactive.
+
+-> onPause()
+onPause() is called when the user switches to another activity or a multi-window mode application. At this point, the activity has lost focus and is running in the background.
+
+-> onStop()
+At this point, most of the activity processes have been stopped. However, the activity is still running in the background. This life-cycle usually occurs after the onPause() method is executed due to the user switching to other activities or pressing the home button.
+
+-> onRestart()
+Since the activity’s states still exist, the onRestart() method can be called when the user restarts the activity. This means the activity will go back to the main screen and the user can resume interacting with its components.
+
+-> onDestroy()
+This is the final callback that the activity will receive when it is stopped.
+
+
+
+
